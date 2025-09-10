@@ -1,0 +1,12 @@
+{
+    "name": "digital-nature/wordpress-theme-digital-nature",
+    "description": "Contains the base theme for Digital Nature site builds.",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Gareth Midwood",
+            "email": "gareth@digital-nature.co.uk"
+        }
+    ],
+    "require": {}
+}
