@@ -27,7 +27,6 @@ PRs are welcome. Please follow the build process below if you want to make any j
 Use semantic versioning.
 
 When updating, you will need to make the change in a few places:
-- assets/src/package.json
 - assets/src/css/frontend/frontend.scss
 - also add a git tag for the same version number
 
