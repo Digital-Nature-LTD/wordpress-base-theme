@@ -8,5 +8,6 @@
             "email": "gareth@digital-nature.co.uk"
         }
     ],
+    "license": "MIT",
     "require": {}
 }
