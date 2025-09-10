@@ -1,0 +1,10 @@
+{
+  "entries": [
+    { "src": "css/common/common.scss", "dest": "../../style-common.css" },
+    { "src": "css/editor/editor.scss", "dest": "../../style-editor.css" }
+  ],
+  "rtl": [
+    { "src": "../../style-common.css", "dest": "../../style-common-rtl.css" },
+    { "src": "../../style-editor.css", "dest": "../../style-editor-rtl.css" }
+  ]
+}

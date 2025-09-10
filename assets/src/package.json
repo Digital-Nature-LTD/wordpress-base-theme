@@ -1,0 +1,38 @@
+{
+  "name": "@digital-nature-ltd/wordpress-base-theme",
+  "description": "The base theme for Digital Nature's wordpress websites",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "email": "gareth@digital-nature.co.uk",
+    "name": "Gareth Midwood"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Digital-Nature-LTD/wordpress-base-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Digital-Nature-LTD/wordpress-base-theme/issues"
+  },
+  "homepage": "https://www.digital-nature.co.uk/",
+  "keywords": [],
+  "type": "module",
+  "scripts": {
+    "digi": "echo 'This is not working yet - continue working through the file in the other repository!' && DigitalNatureTools runSassFromConfig --config .sass.json --watch",
+    "watch": "node modules/runSassFromConfig.mjs --config .sass.json --watch",
+    "css": "node modules/runSassFromConfig.mjs --config .sass.json",
+    "download-vendor-css": "node css/download-and-combine-vendor-files.js",
+    "download-vendor-js": "node js/download-and-combine-vendor-files.js",
+    "build:rollup": "rollup -c",
+    "build": "npm run download-vendor-css && npm run download-vendor-js && npm run build:rollup && npm run css"
+  },
+  "devDependencies": {
+    "@digital-nature-ltd/digital-nature-wordpress-theme-js-tools": "^1.0.3",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-legacy": "^3.0.2",
+    "rollup": "^4.44.2",
+    "rtlcss": "^4.3.0",
+    "sass": "^1.89.2",
+    "uglify-js": "^3.19.3"
+  }
+}

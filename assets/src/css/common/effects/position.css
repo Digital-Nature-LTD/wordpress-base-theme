@@ -1,0 +1,133 @@
+/** Positions **/
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+
+
+/** Movement - up **/
+.move-up-2x-small {
+    top: calc(-1 * var(--move-2x-small));
+}
+
+.move-up-x-small {
+    top: calc(-1 * var(--move-x-small));
+}
+
+.move-up-small {
+    top: calc(-1 * var(--move-small));
+}
+
+.move-up-medium {
+    top: calc(-1 * var(--move-medium));
+}
+
+.move-up-large {
+    top: calc(-1 * var(--move-large));
+}
+
+.move-up-x-large {
+    top: calc(-1 * var(--move-x-large));
+}
+
+.move-up-2x-large {
+    top: calc(-1 * var(--move-2x-large));
+}
+
+
+/** Movement - down **/
+.move-down-2x-small {
+    top: var(--move-2x-small);
+}
+
+.move-down-x-small {
+    top: var(--move-x-small);
+}
+
+.move-down-small {
+    top: var(--move-small);
+}
+
+.move-down-medium {
+    top: var(--move-medium);
+}
+
+.move-down-large {
+    top: var(--move-large);
+}
+
+.move-down-x-large {
+    top: var(--move-x-large);
+}
+
+.move-down-2x-large {
+    top: var(--move-2x-large);
+}
+
+
+/** Movement - left **/
+.move-left-2x-small {
+    left: calc(-1 * var(--move-2x-small));
+}
+
+.move-left-x-small {
+    left: calc(-1 * var(--move-x-small));
+}
+
+.move-left-small {
+    left: calc(-1 * var(--move-small));
+}
+
+.move-left-medium {
+    left: calc(-1 * var(--move-medium));
+}
+
+.move-left-large {
+    left: calc(-1 * var(--move-large));
+}
+
+.move-left-x-large {
+    left: calc(-1 * var(--move-x-large));
+}
+
+.move-left-2x-large {
+    left: calc(-1 * var(--move-2x-large));
+}
+
+
+/** Movement - right **/
+.move-right-2x-small {
+    left: var(--move-2x-small);
+}
+
+.move-right-x-small {
+    left: var(--move-x-small);
+}
+
+.move-right-small {
+    left: var(--move-small);
+}
+
+.move-right-medium {
+    left: var(--move-medium);
+}
+
+.move-right-large {
+    left: var(--move-large);
+}
+
+.move-right-x-large {
+    left: var(--move-x-large);
+}
+
+.move-right-2x-large {
+    left: var(--move-2x-large);
+}

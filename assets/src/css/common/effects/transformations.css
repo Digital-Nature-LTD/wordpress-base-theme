@@ -1,0 +1,58 @@
+/** Rotate - left **/
+.rotate-left-2x-small {
+    transform: rotate(calc(-1 * var(--rotate-2x-small)));
+}
+
+.rotate-left-x-small {
+    transform: rotate(calc(-1 * var(--rotate-x-small)));
+}
+
+.rotate-left-small {
+    transform: rotate(calc(-1 * var(--rotate-small)));
+}
+
+.rotate-left-medium {
+    transform: rotate(calc(-1 * var(--rotate-medium)));
+}
+
+.rotate-left-large {
+    transform: rotate(calc(-1 * var(--rotate-large)));
+}
+
+.rotate-left-x-large {
+    transform: rotate(calc(-1 * var(--rotate-x-large)));
+}
+
+.rotate-left-2x-large {
+    transform: rotate(calc(-1 * var(--rotate-2x-large)));
+}
+
+
+/** Rotate - right **/
+.rotate-right-2x-small {
+    transform: rotate(var(--rotate-2x-small));
+}
+
+.rotate-right-x-small {
+    transform: rotate(var(--rotate-x-small));
+}
+
+.rotate-right-small {
+    transform: rotate(var(--rotate-small));
+}
+
+.rotate-right-medium {
+    transform: rotate(var(--rotate-medium));
+}
+
+.rotate-right-large {
+    transform: rotate(var(--rotate-large));
+}
+
+.rotate-right-x-large {
+    transform: rotate(var(--rotate-x-large));
+}
+
+.rotate-right-2x-large {
+    transform: rotate(var(--rotate-2x-large));
+}

@@ -1,0 +1,8 @@
+.display-inline-block {
+    display: inline-block;
+}
+
+.aspect-ratio-circle,
+.aspect-ratio-square {
+    aspect-ratio: 1/1;
+}
