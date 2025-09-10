@@ -1,7 +1,7 @@
 {
   "name": "@digital-nature-ltd/wordpress-base-theme",
   "description": "The base theme for Digital Nature's wordpress websites",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "email": "gareth@digital-nature.co.uk",
