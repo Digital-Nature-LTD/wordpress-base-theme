@@ -52,6 +52,11 @@
   }
 }
 /** Effects **/
+@media (max-width: 64rem) {
+  .no-aspect-ratio-mobile {
+    aspect-ratio: unset !important;
+  }
+}
 .display-inline-block {
   display: inline-block;
 }

@@ -2,6 +2,7 @@
 @use "config/css-variables.scss";
 
 /** Effects **/
+@use "effects/aspect-ratio.scss";
 @use "effects/display.css";
 @use "effects/padding.css";
 @use "effects/position.css";

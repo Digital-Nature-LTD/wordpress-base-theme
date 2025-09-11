@@ -1,0 +1,7 @@
+@use "../config/variables.scss" as variables;
+
+@media (max-width: #{variables.$breakpoint-desktop}) {
+    .no-aspect-ratio-mobile {
+        aspect-ratio: unset !important;
+    }
+}
