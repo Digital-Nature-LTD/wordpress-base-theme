@@ -213,6 +213,40 @@
   padding-bottom: var(--wp--preset--spacing--80);
 }
 
+@media (max-width: 45rem) {
+  .padding-none-mobile {
+    padding: 0;
+  }
+  .padding-l-none-mobile {
+    padding-right: 0;
+  }
+  .padding-r-none-mobile {
+    padding-left: 0;
+  }
+  .padding-t-none-mobile {
+    padding-top: 0;
+  }
+  .padding-b-none-mobile {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 64rem) {
+  .padding-none-tablet {
+    padding: 0;
+  }
+  .padding-l-none-tablet {
+    padding-right: 0;
+  }
+  .padding-r-none-tablet {
+    padding-left: 0;
+  }
+  .padding-t-none-tablet {
+    padding-top: 0;
+  }
+  .padding-b-none-tablet {
+    padding-bottom: 0;
+  }
+}
 /** Positions **/
 .position-relative {
   position: relative;

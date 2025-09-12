@@ -1,3 +1,5 @@
+@use "../config/variables.scss" as variables;
+
 /** 2x small **/
 .padding-2x-small {
     padding: var(--wp--preset--spacing--20);
@@ -153,4 +155,52 @@
 
 .padding-2x-large-b {
     padding-bottom: var(--wp--preset--spacing--80);
+}
+
+
+
+
+@media (max-width: #{variables.$breakpoint-tablet}) {
+    .padding-none-mobile {
+        padding: 0;
+    }
+
+    .padding-l-none-mobile {
+        padding-left: 0;
+    }
+
+    .padding-r-none-mobile {
+        padding-right: 0;
+    }
+
+    .padding-t-none-mobile {
+        padding-top: 0;
+    }
+
+    .padding-b-none-mobile {
+        padding-bottom: 0;
+    }
+}
+
+
+@media (max-width: #{variables.$breakpoint-desktop}) {
+    .padding-none-tablet {
+        padding: 0;
+    }
+
+    .padding-l-none-tablet {
+        padding-left: 0;
+    }
+
+    .padding-r-none-tablet {
+        padding-right: 0;
+    }
+
+    .padding-t-none-tablet {
+        padding-top: 0;
+    }
+
+    .padding-b-none-tablet {
+        padding-bottom: 0;
+    }
 }
