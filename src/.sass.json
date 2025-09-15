@@ -1,0 +1,12 @@
+{
+  "entries": [
+    { "src": "css/frontend/frontend.scss", "dest": "../style.css" },
+    { "src": "css/common/common.scss", "dest": "../style-common.css" },
+    { "src": "css/editor/editor.scss", "dest": "../style-editor.css" }
+  ],
+  "rtl": [
+    { "src": "../style.css", "dest": "../style-rtl.css" },
+    { "src": "../style-common.css", "dest": "../style-common-rtl.css" },
+    { "src": "../style-editor.css", "dest": "../style-editor-rtl.css" }
+  ]
+}

@@ -3,7 +3,7 @@
 Contains the base theme for Digital Nature site builds.
 
 ## Usage
-This should be base on which you build your site theme.
+This should be the base on which you build your site theme.
 
 ### Child theme link
 [Child theme docs](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
@@ -27,17 +27,17 @@ PRs are welcome. Please follow the build process below if you want to make any j
 Use semantic versioning.
 
 When updating, you will need to make the change in a few places:
-- assets/src/css/frontend/frontend.scss
-- also add a git tag for the same version number
+- `src/css/frontend/frontend.scss`
+- also add a `git tag` for the same version number
 
 ### Build process
-Navigate to the `assets/src` directory and run build/watch
+Navigate to the `src` directory and run build/watch
 
 Note that you will need to run `npm i` first, to install the dependencies
 
 ```shell
 # navigate to the src directory
-cd assets/src
+cd src
 
 # watch for changes and auto-build
 npm run watch

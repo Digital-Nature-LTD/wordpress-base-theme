@@ -1,2 +1,9 @@
+vendor
+node_modules
 .idea
-/vendor/
+.sass-cache
+
+thistheme-editor.js
+thistheme-editor.js.map
+thistheme-frontend.js
+thistheme-frontend.js.map
