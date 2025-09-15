@@ -1,13 +1,4 @@
-@use "variables";
-
 :root {
-    /** Breakpoints - we use scss variables so they can be used in media queries */
-    --breakpoint-mobile: #{variables.$breakpoint-mobile};
-    --breakpoint-tablet: #{variables.$breakpoint-tablet};
-    --breakpoint-desktop: #{variables.$breakpoint-desktop};
-    --breakpoint-desktop-large: #{variables.$breakpoint-desktop-large};
-    --breakpoint-widescreen: #{variables.$breakpoint-widescreen};
-
     /** WordPress vars - spacing **/
     --wp--preset--spacing--20: 20px; // 2x small
     --wp--preset--spacing--30: 30px; // x small
@@ -40,18 +31,4 @@
     --rotate-large: 20deg;
     --rotate-x-large: 45deg;
     --rotate-2x-large: 70deg;
-}
-
-
-@media (max-width: #{variables.$breakpoint-desktop}) {
-    :root {
-        /** WordPress vars - spacing **/
-        --wp--preset--spacing--20: 10px; // 2x small
-        --wp--preset--spacing--30: 15px; // x small
-        --wp--preset--spacing--40: 20px; // small
-        --wp--preset--spacing--50: 25px; // medium
-        --wp--preset--spacing--60: 30px; // large
-        --wp--preset--spacing--70: 35px; // x large
-        --wp--preset--spacing--80: 40px; // 2x large
-    }
 }

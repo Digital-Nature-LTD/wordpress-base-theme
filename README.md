@@ -45,3 +45,8 @@ npm run watch
 # build for production
 npm run build
 ```
+
+### Responsive styles
+Breakpoints for screen widths should not be found in this theme. We can set these breakpoints in the child theme,
+if we set them here then we will end up including **both** these base styles and those of the theme, that can lead
+to conflicts.

@@ -1,13 +1,5 @@
 /** Variables **/
-/** Breakpoints */
-/** WordPress defaults **/
 :root {
-  /** Breakpoints - we use scss variables so they can be used in media queries */
-  --breakpoint-mobile: 30rem;
-  --breakpoint-tablet: 45rem;
-  --breakpoint-desktop: 64rem;
-  --breakpoint-desktop-large: 70rem;
-  --breakpoint-widescreen: 108rem;
   /** WordPress vars - spacing **/
   --wp--preset--spacing--20: 20px;
   --wp--preset--spacing--30: 30px;
@@ -39,24 +31,7 @@
   --rotate-2x-large: 70deg;
 }
 
-@media (max-width: 64rem) {
-  :root {
-    /** WordPress vars - spacing **/
-    --wp--preset--spacing--20: 10px;
-    --wp--preset--spacing--30: 15px;
-    --wp--preset--spacing--40: 20px;
-    --wp--preset--spacing--50: 25px;
-    --wp--preset--spacing--60: 30px;
-    --wp--preset--spacing--70: 35px;
-    --wp--preset--spacing--80: 40px;
-  }
-}
 /** Effects **/
-@media (max-width: 64rem) {
-  .no-aspect-ratio-mobile {
-    aspect-ratio: unset !important;
-  }
-}
 .display-inline-block {
   display: inline-block;
 }
@@ -213,70 +188,6 @@
   padding-bottom: var(--wp--preset--spacing--80);
 }
 
-@media (max-width: 45rem) {
-  .padding-none-mobile {
-    padding: 0;
-  }
-  .padding-l-none-mobile {
-    padding-left: 0;
-  }
-  .padding-r-none-mobile {
-    padding-right: 0;
-  }
-  .padding-t-none-mobile {
-    padding-top: 0;
-  }
-  .padding-b-none-mobile {
-    padding-bottom: 0;
-  }
-  .padding-none-mobile-important {
-    padding: 0 !important;
-  }
-  .padding-l-none-mobile-important {
-    padding-left: 0 !important;
-  }
-  .padding-r-none-mobile-important {
-    padding-right: 0 !important;
-  }
-  .padding-t-none-mobile-important {
-    padding-top: 0 !important;
-  }
-  .padding-b-none-mobile-important {
-    padding-bottom: 0 !important;
-  }
-}
-@media (max-width: 64rem) {
-  .padding-none-tablet {
-    padding: 0;
-  }
-  .padding-l-none-tablet {
-    padding-left: 0;
-  }
-  .padding-r-none-tablet {
-    padding-right: 0;
-  }
-  .padding-t-none-tablet {
-    padding-top: 0;
-  }
-  .padding-b-none-tablet {
-    padding-bottom: 0;
-  }
-  .padding-none-tablet-important {
-    padding: 0 !important;
-  }
-  .padding-l-none-tablet-important {
-    padding-left: 0 !important;
-  }
-  .padding-r-none-tablet-important {
-    padding-right: 0 !important;
-  }
-  .padding-t-none-tablet-important {
-    padding-top: 0 !important;
-  }
-  .padding-b-none-tablet-important {
-    padding-bottom: 0 !important;
-  }
-}
 /** Positions **/
 .position-relative {
   position: relative;
