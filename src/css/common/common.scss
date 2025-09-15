@@ -1,10 +1,11 @@
 /** Variables **/
 @use "config/css-variables.scss";
 
-/** Effects **/
-@use "effects/display.css";
-@use "effects/padding.css";
-@use "effects/position.css";
-@use "effects/transformations.css";
-@use "effects/width.css";
-@use "effects/z-index.css";
+/** CSS properties **/
+@use "properties/display.css";
+@use "properties/margin.css";
+@use "properties/padding.css";
+@use "properties/position.css";
+@use "properties/transform.css";
+@use "properties/width.css";
+@use "properties/z-index.css";
